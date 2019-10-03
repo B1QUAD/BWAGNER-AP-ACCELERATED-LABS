@@ -19,10 +19,10 @@ public class Averages
      */
     public void tallyAndSum()
     {
-		while(i <= 1000)
+		while(i <= 100)
 		{
 			holder = generateNumber();
-			//System.out.println("number " + i + " " + generateNumber()); //This code was used to make sure I didn't mess anything up
+			System.out.println("number " + i + " " + generateNumber() + "  "); 
 			i++;
 			if(holder >= 0)
 			{
@@ -53,7 +53,7 @@ public class Averages
      */
     public void printSummary()
     {
-		System.out.println("Print Summary");
+		System.out.println("Summary\n" + "-------");
 		System.out.println("Positive count: " + posCount);
 		System.out.println("Positive sum: " + posCount);
 		System.out.println("Positive average: " + average(posSum, posCount));
