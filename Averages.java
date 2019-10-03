@@ -3,12 +3,12 @@ import java.util.*;
 public class Averages
 {
     // instance variables
-    private int i = 0;
+	private int i = 0;
 	private int holder = 0;
 	private int posCount = 0;
-    private int negCount = 0;
-    private int posSum = 0;
-    private int negSum = 0;
+    	private int negCount = 0;
+	private int posSum = 0;
+    	private int negSum = 0;
 
     /* This method generates a 100 random numbers and determines
      * if each number is positive or negative. If the number is
