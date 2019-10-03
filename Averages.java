@@ -58,9 +58,9 @@ public class Averages
 		System.out.println("Positive sum: " + posCount);
 		System.out.println("Positive average: " + average(posSum, posCount));
 		System.out.println("");
-		System.out.println("Positive count: " + negCount);
-		System.out.println("Positive sum: " + negCount);
-		System.out.println("Positive average: " + average(negSum, negCount));
+		System.out.println("Negative count: " + negCount);
+		System.out.println("Negative sum: " + negCount);
+		System.out.println("Negative average: " + average(negSum, negCount));
     }
 
     /* return a random number in the range -1000 to 1000
