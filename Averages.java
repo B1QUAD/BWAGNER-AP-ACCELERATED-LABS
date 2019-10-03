@@ -22,7 +22,7 @@ public class Averages
 		while(i <= 1000)
 		{
 			holder = generateNumber();
-			System.out.println("number " + i + " " + generateNumber());
+			//System.out.println("number " + i + " " + generateNumber()); //This code was used to make sure I didn't mess anything up
 			i++;
 			if(holder >= 0)
 			{
