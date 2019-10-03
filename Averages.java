@@ -19,7 +19,7 @@ public class Averages
      */
     public void tallyAndSum()
     {
-		while(i <= 100)
+		while(i <= 1000)
 		{
 			holder = generateNumber();
 			System.out.println("number " + i + " " + generateNumber());
