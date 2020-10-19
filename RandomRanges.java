@@ -22,9 +22,6 @@ public class RandomRanges
 		System.out.println("5. Range: -100 to 100 = " + Math.round((Math.random() * -100) + 100));
 		System.out.println("6. Range: A to Z = " + ((char)((Math.random() * 26) + 65)));
 		
-		System.out.println("Programming Challenge: ");
-		double num7 = ((int)(Math.random() * 999));
-		System.out.println(num7 / 1000);
-		System.out.println(Math.round((int)(Math.random() * 10) + 1) * 1000);
+		System.out.println("Programming Challenge: "); // u thought
 	}
 }
